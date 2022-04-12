@@ -1,0 +1,21 @@
+.FormControl {
+  width: 30%;
+  margin: 35px !important;
+  padding: 10px;
+  background-color: rgb(209, 209, 209);
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  position: relative;
+}
+.FormControl option {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; /* Remove default arrow */
+}
+option-selected {
+  background-color: rgb(38, 255, 30);
+}
+.FormControl::-webkit-details-marker {
+  display: none;
+}
